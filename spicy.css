@@ -1,0 +1,180 @@
+:root{
+    --yellow:rgb(231, 168, 10);
+    --white:whitesmoke;
+    --green:rgb(8, 222, 8);
+}
+
+
+body ,h2,h3{
+    margin: 0%;
+     font-family:'Times New Roman', Times, serif;
+    
+}
+
+.landing{
+    background-image:url(spicyhut.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: antiquewhite;
+} 
+
+header a{
+    text-decoration: none;
+    color:var(--yellow);
+    text-shadow:1px 1px 5px wheat;
+
+    
+}
+header{
+    display: flex;
+}
+
+#logo{
+    font-size:1.25em;
+    text-align:left;
+    font-size: 3.5em;
+    caret-shape: 2px;
+
+}
+#logo{
+    flex: 3;
+}
+ nav{
+   flex: 1;
+   display: flex;
+
+
+ }
+nav a{
+    flex: 0.3;
+}
+nav a:hover{
+    color: var(--green);
+}
+
+.maintext{
+      display: flex;
+      flex-direction:column;
+      height: 40vh;
+      justify-content: center;
+      padding: 2em;
+}
+
+.tagline1{
+    color: var(--yellow);
+    font-size:2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: var(--yellow);
+    font-size: 2em;
+
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .5em;
+    background-color: var(--white);
+    font-size: 15px;
+border: 1px solid var(--green);
+
+}
+.menu{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ;
+    background:linear-gradient(to right, rgb(100, 100, 100),rgb(18, 17, 17));
+    color: var(--yellow);
+}
+
+#menuheading,#locheading{
+    background: linear-gradient(to right, rgb(100, 100, 100),rgb(18, 17, 17));
+    font-size: 2.5em;
+    color:rgb(188, 67, 11);
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color: var(--green);
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display:flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+.menu td :nth-child(2){
+    justify-self: right;
+}
+.menucourse{
+    grid-row: span 2;
+}
+
+.location{
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(86, 86, 55));
+    color: var(--yellow);
+    padding: 20px;
+    display:flex ;
+    flex-wrap: wrap;
+}
+
+.location div{
+    flex:1;
+    padding: 1em;
+    min-width: 220px;
+}
+
+
+#locaheading,#location{
+    text-align: center;
+    color: crimson;
+    background-color: cornsilk;
+}
+.location h2{
+color: rgb(173, 276, 0);
+text-decoration:underline;
+}
+
+.annanagar{
+    padding: 10px;
+    text-align: center;
+    font-size:20px;
+}
+
+.velachery{
+    padding: 10px;
+    text-align: center;
+    font-size:20px;
+}
+
+.tambaram{
+    padding: 10px;
+    text-align:center;
+    font-size:20px;
+}
+
+.para1{
+    color:var(--green);
+    background-color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: large;
+    initial-letter: 10px;
+    height:100vh;
+    
+}
